@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sai Ecommerce Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header { background: #333; padding: 1rem; color: white; text-align: center; }
+    .container { padding: 2rem; max-width: 1200px; margin: auto; }
+    .featured-blog { background: #fff; padding: 2rem; border-radius: 10px; margin-bottom: 2rem; }
+    .featured-blog h2 { margin-top: 0; }
+    .blog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+    .blog-card { background: #fff; border-radius: 10px; padding: 1rem; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: 0.3s; }
+    .blog-card:hover { transform: translateY(-5px); }
+    .blog-card img { width: 100%; border-radius: 8px; }
+    .blog-card h3 { margin: 1rem 0 0.5rem; font-size: 1.2rem; }
+    .blog-card p { font-size: 0.95rem; color: #555; }
+    .search-bar { display: flex; margin-bottom: 2rem; }
+    .search-bar input { flex: 1; padding: 0.5rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px 0 0 5px; }
+    .search-bar button { padding: 0.5rem 1rem; background: #333; color: white; border: none; border-radius: 0 5px 5px 0; cursor: pointer; }
+    .categories { margin: 2rem 0; }
+    .categories span { background: #eee; padding: 0.5rem 1rem; margin: 0.3rem; display: inline-block; border-radius: 20px; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sai Ecommerce Blog</h1>
+    <p>Fashion • Trends • Tips • Stories</p>
+  </header>
+
+  <div class="container">
+
+    <div class="search-bar">
+      <input type="text" placeholder="Search blog posts...">
+      <button>Search</button>
+    </div>
+
+    <div class="featured-blog">
+      <h2>Featured: Summer Fashion Essentials 2025</h2>
+      <p>Get ready for the heatwave with these must-have summer trends. From lightweight linen shirts to flowy dresses, we’ve rounded up this season’s essentials for both comfort and style.</p>
+    </div>
+
+    <div class="categories">
+      <strong>Categories:</strong>
+      <span>Fashion Tips</span>
+      <span>Product Reviews</span>
+      <span>Behind the Scenes</span>
+      <span>Customer Stories</span>
+      <span>Trends</span>
+    </div>
+
+    <div class="blog-grid">
+      <div class="blog-card">
+        <img src="images/blog/blog1.jpg" alt="Blog 1">
+        <h3>Top 5 Color Trends This Season</h3>
+        <p>Discover the bold hues taking over fashion this year, including neon greens, blush pinks, and deep maroons. Learn how to style them effortlessly!</p>
+      </div>
+
+      <div class="blog-card">
+        <img src="images/blog/blog2.jpg" alt="Blog 2">
+        <h3>Behind the Scenes: Our Latest Photoshoot</h3>
+        <p>Step into the studio with us as we prep, shoot, and select the perfect outfits for our summer 2025 collection.</p>
+      </div>
+
+      <div class="blog-card">
+        <img src="images/blog/blog3.jpg" alt="Blog 3">
+        <h3>What to Pack for a Weekend Getaway</h3>
+        <p>Whether you're heading to the beach or the hills, here's the ultimate style guide for packing light but stylish.</p>
+      </div>
+
+      <div class="blog-card">
+        <img src="images/blog/blog4.jpg" alt="Blog 4">
+        <h3>Customer Spotlight: How Priya Styled Her Saree</h3>
+        <p>Meet Priya from Chennai who turned heads by mixing traditional wear with modern accessories. Get inspired by her story.</p>
+      </div>
+
+      <div class="blog-card">
+        <img src="images/blog/blog5.jpg" alt="Blog 5">
+        <h3>Fashion on a Budget: 6 Affordable Looks</h3>
+        <p>You don’t need to break the bank to look great. We’ve rounded up stylish looks under ₹999 that feel premium!</p>
+      </div>
+
+      <div class="blog-card">
+        <img src="images/blog/blog6.jpg" alt="Blog 6">
+        <h3>Men’s Guide to Monsoon Fashion</h3>
+        <p>Beat the rain in style! Here’s how to dress smart and stay dry with waterproof sneakers, breathable fabrics, and more.</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
